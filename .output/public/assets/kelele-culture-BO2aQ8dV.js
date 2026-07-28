@@ -1,0 +1,1 @@
+var e=`/assets/kelele-news-Da2fzTkh.jpg`,t=`/assets/kelele-culture-cdu8Ld7n.jpg`;export{e as n,t};

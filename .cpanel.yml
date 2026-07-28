@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dzdcepzx/public_html/
-    - /bin/cp -R ./Kelele-Digital/* $DEPLOYPATH
+    - /bin/cp -R ./.output/public/* $DEPLOYPATH

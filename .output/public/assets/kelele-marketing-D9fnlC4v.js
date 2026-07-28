@@ -1,0 +1,1 @@
+var e=`/assets/kelele-marketing-BUtGgrkF.jpg`;export{e as t};
