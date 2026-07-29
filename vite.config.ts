@@ -12,7 +12,7 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
-  // Build a standalone Node.js server (works with cPanel "Setup Node.js App").
+  // Build a standalone Node.js server (works with cPanel "Setup Node.js App") or use Vercel preset when on Vercel.
   // Override at build time with NITRO_PRESET=<preset> if deploying elsewhere.
-  nitro: { preset: process.env.NITRO_PRESET ?? "node-server" },
+  nitro: { preset: process.env.NITRO_PRESET ?? (process.env.VERCEL ? "vercel" : "node-server") },
 });
